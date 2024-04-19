@@ -12,7 +12,10 @@
 #   git log
 
 """
-回滚
+回滚：返回之前的版本
+git reset --hard +版本号
 
-
+reset之后前面的内容没了，先用
+git reflog
+git reset --hard +版本号
 """
