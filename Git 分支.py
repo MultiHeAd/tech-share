@@ -10,7 +10,9 @@
 git branch   查看当前路径是什么分支或者是主干
 git branch +名字   增加新分支，*是当前所处位置
 git checkout +名字   切换分支，不影响master
-
+合并:
+第一步切换回master
+第二步：git merge bug
 
 
 
