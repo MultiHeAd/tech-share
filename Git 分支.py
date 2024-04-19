@@ -25,6 +25,9 @@ git checkout +名字   切换分支，不影响master
 git add .
 git commit -m "合并 dev 到 master，解决冲突"
 
+第五步：删除分支
+git branch -d +名字
+
 
 
 
