@@ -26,3 +26,5 @@ git reset HEAD  和add相反
 git reset --soft +版本号  和commit相反
 
 """
+
+# 测试修复了bug
