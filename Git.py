@@ -12,10 +12,17 @@
 #   git log
 
 """
+常用指令：
+
 回滚：返回之前的版本
 git reset --hard +版本号
 
 reset之后前面的内容没了，先用
 git reflog
 git reset --hard +版本号
+
+git checkout .返回控制运行
+git reset HEAD  和add相反
+git reset --soft +版本号  和commit相反
+
 """
