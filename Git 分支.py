@@ -11,8 +11,20 @@ git branch   查看当前路径是什么分支或者是主干
 git branch +名字   增加新分支，*是当前所处位置
 git checkout +名字   切换分支，不影响master
 合并:
-第一步切换回master
-第二步：git merge bug
+第一步切换回master  git checkout master
+第二步：git merge dev
+第三步：手动解决冲突
+
+<<<<<<< HEAD
+这是 master 分支的内容
+=======
+这是 dev 分支的内容
+>>>>>>> dev
+
+第四步：合并内容
+git add .
+git commit -m "合并 dev 到 master，解决冲突"
+
 
 
 
