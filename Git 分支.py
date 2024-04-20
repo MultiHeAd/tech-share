@@ -44,3 +44,11 @@ github
 """
 
 # 测试从github获取代码！！！
+
+
+"""
+git pull origin dev
+等同于
+git fetch origin dev  远程仓库拉到版本库
+git merge origin dev  版本库再更新到工作区
+"""
