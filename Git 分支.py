@@ -28,7 +28,17 @@ git commit -m "合并 dev 到 master，解决冲突"
 第五步：删除分支
 git branch -d +名字
 
+"""
 
+
+
+"""
+github
+
+1.git remote add origin +远程仓库地址
+2.向远程推送代码：git push -u origin 分支
+3.拉代码 git clone +远程仓库地址
+4.注意git clone以后origin，不需要重复添加，可以直接推
 
 
 """
