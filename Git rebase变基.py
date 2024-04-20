@@ -6,3 +6,11 @@
 # 最好在合并记录的时候，不要和已push到远程仓库放到一起，会很麻烦
 
 
+# 存在分支情况下的rebase操作：
+"""
+第一步切换到 branch分支
+第二步执行 git rebase master 变基
+第三步回到master   git merge dev
+
+把功能合并，不存在分支
+"""
