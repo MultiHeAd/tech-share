@@ -35,7 +35,7 @@ git branch -d +名字
 """
 github
 
-1.git remote add origin +远程仓库地址
+1.git remote add origin +远程仓库地址(origin可以取别的名字)
 2.向远程推送代码：git push -u origin 分支
 3.拉代码 git clone +远程仓库地址
 4.注意git clone以后origin，不需要重复添加，可以直接推
@@ -51,4 +51,11 @@ git pull origin dev
 等同于
 git fetch origin dev  远程仓库拉到版本库
 git merge origin dev  版本库再更新到工作区
+"""
+
+
+
+
+"""
+git mergetool  解决冲突工具
 """
